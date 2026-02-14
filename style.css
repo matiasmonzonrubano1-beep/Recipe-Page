@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family:"Outfit";
+    font-family:"Outfit",Arial, Helvetica, sans-serif;
     min-height: 100lvh;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ p {
 }
 
 .card_title {
-    font-family:"Young Serif";
+    font-family:"Young Serif",Georgia, 'Times New Roman', Times, serif;
 }
 
 .pinkcard {
@@ -74,7 +74,7 @@ p {
 
 .subtitle {
     color:var(--color-brown-800);
-    font-family:"Young Serif";    
+    font-family:"Young Serif",Georgia, 'Times New Roman', Times, serif;    
 }
 
 .listbrown {
