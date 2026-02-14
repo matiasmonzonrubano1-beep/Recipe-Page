@@ -19,7 +19,7 @@
 
 body {
     font-family:"Outfit";
-    min-height: 100vh;
+    min-height: 100lvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +38,7 @@ p {
     padding:2.5rem;
     width: 45%;
     min-width:25rem;
+    margin-top: 5rem;
 }
 
 .card_image {
@@ -107,4 +108,9 @@ tr {
 .filler {
     color: rgba(255, 255, 255, 0);
     width: 2.5rem;
+}
+
+footer {
+    position:relative;
+    top:2rem;
 }
