@@ -1,0 +1,110 @@
+:root {
+    --color-cream:hsl(30, 54%, 90%);
+    --color-white: hsl(0,0%,100%);
+    --color-grey-150:hsl(30, 18%, 87%);
+    --color-grey-600:hsl(30, 10%, 34%);
+    --color-grey-900:hsl(24, 5%, 18%);
+    --color-rose-80:hsl(330, 100%, 98%);
+    --color-rose-800:hsl(332, 51%, 32%);
+    --color-brown-800:hsl(14, 45%, 36%);
+    --spacing-md: 1.5rem;
+    --radius-sm: 0.5rem;
+}
+
+* {
+    margin-bottom: 1.6rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Outfit";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-cream);
+}
+
+p {
+    color:var(--color-grey-600);
+    font-weight:400;    
+}
+
+.card {
+    background-color: var(--color-white);
+    border-radius: 1.01rem;
+    padding:2.5rem;
+    width: 45%;
+    min-width:25rem;
+}
+
+.card_image {
+    border-radius: 1.01rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card_title {
+    font-family:"Young Serif";
+}
+
+.pinkcard {
+    background-color: var(--color-rose-80);
+    border-radius: 1.01rem;
+    padding-left:1.5rem;
+    padding-right:1rem;
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+    width: 100%;
+    min-width:20rem;
+    color:var(--color-rose-800);
+}
+
+.list {
+    padding-left:1.3rem;
+}
+
+.chapter {
+    border-bottom:0.08rem solid;
+    border-color: var(--color-grey-150);
+}
+
+.subtitle {
+    color:var(--color-brown-800);
+    font-family:"Young Serif";    
+}
+
+.listbrown {
+    padding-left: 1.3rem;
+    color:var(--color-brown-800);
+}
+
+li {
+    padding-left:1.3rem;
+}
+
+.nutrition_table {
+    border-collapse:collapse;
+    width:100%;
+    color:var(--color-grey-600); 
+
+}
+
+.nutrition_data {
+    font-weight: 700;
+    color:var(--color-brown-800);
+    width:55%;
+    height:3rem;
+}
+
+tr {
+    border-bottom:0.08rem solid;
+    border-color: var(--color-grey-150);
+}
+
+.filler {
+    color: rgba(255, 255, 255, 0);
+    width: 2.5rem;
+}
